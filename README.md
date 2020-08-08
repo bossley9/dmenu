@@ -54,3 +54,4 @@ I have included in my build.
 
 - [fuzzymatch 4.6](https://tools.suckless.org/dmenu/patches/fuzzymatch)
 - [fuzzyhighlight 4.9](https://tools.suckless.org/dmenu/patches/fuzzyhighlight)
+- [line height 4.9](https://tools.suckless.org/dmenu/patches/line-height)
