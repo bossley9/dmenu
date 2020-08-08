@@ -52,4 +52,4 @@ patch --merge -i patchName.diff
 In addition to my own personal tweaks and settings, below is a list of popular patches 
 I have included in my build.
 
-- N/A
+- [fuzzymatch 4.6](https://tools.suckless.org/dmenu/patches/fuzzymatch)
