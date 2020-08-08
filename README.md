@@ -53,3 +53,4 @@ In addition to my own personal tweaks and settings, below is a list of popular p
 I have included in my build.
 
 - [fuzzymatch 4.6](https://tools.suckless.org/dmenu/patches/fuzzymatch)
+- [fuzzyhighlight 4.9](https://tools.suckless.org/dmenu/patches/fuzzyhighlight)
