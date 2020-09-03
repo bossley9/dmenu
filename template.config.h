@@ -8,11 +8,11 @@ static const char *prompt =
     NULL; /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
     /*     fg         bg       */
-    [SchemeNorm] = {"$C_GRAY_1", "$C_BLACK_0"},
-    [SchemeSel] = {"$C_BLACK_0", "$C_CYAN_0"},
-    [SchemeSelHighlight] = {"$C_BLACK_0", "$C_CYAN_0"},
-    [SchemeNormHighlight] = {"$COLOR_SECONDARY", "$C_BLACK_0"},
-    [SchemeOut] = {"$C_BLACK_0", "#00ffff"},
+    [SchemeNorm] = {"$C_GRAY_1", "$C_CYAN_0"},
+    [SchemeSel] = {"$C_GRAY_1", "$C_MAGENTA_1"},
+    [SchemeSelHighlight] = {"$C_GRAY_1", "$C_MAGENTA_1"},
+    [SchemeNormHighlight] = {"$C_BLACK_0", "$C_CYAN_0"},
+    [SchemeOut] = {"$C_BLACK_0", "$C_CYAN_0"},
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines = 0;
@@ -26,4 +26,9 @@ static unsigned int lineheight =
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static const unsigned int border_width = $WM_GAPS;
+static const unsigned int border_width = 0;
+
+static int dmx = $WM_GAPS; /* put dmenu at this x offset */
+static int dmy = $WM_GAPS; /* put dmenu at this y offset (measured from the
+                       bottom if topbar is 0) */
+static unsigned int dmw = $WINDOW_WIDTH; /* make dmenu this wide */

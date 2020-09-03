@@ -56,3 +56,4 @@ I have included in my build.
 - [fuzzyhighlight 4.9](https://tools.suckless.org/dmenu/patches/fuzzyhighlight)
 - [line height 4.9](https://tools.suckless.org/dmenu/patches/line-height)
 - [border 4.9](https://tools.suckless.org/dmenu/patches/border)
+- [xyw 4.6](https://tools.suckless.org/dmenu/patches/xyw)
