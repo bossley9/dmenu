@@ -5,6 +5,13 @@ dmenu is an efficient dynamic menu for X.
 > [dotfiles](https://github.com/bossley9/dotfiles). You can view the source
 > hosted by suckless [on their own git server](https://git.suckless.org/dmenu).
 
+## Please Read
+
+**This build of dmenu will no longer be maintained. After using dmenu for nearly a year, I 
+have found it to be slightly less optimal and efficient compared to other fuzzy file finding
+programs (namely, `fzf` and `ripgrep`). As such, I have transitioned away from dmenu to use 
+these alternative fuzzy finders in my dotfiles. This build will remain publicly available.**
+
 ## Table of Contents
 1. [Installation](#installation)
 2. [Running](#running)
